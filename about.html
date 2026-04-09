@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Lakhi3 Beauty Salon</title>
+    <meta name="description" content="Learn about Lakhi3 Beauty Salon and Vidya Chappala's mission to provide premium beauty services in Kamareddy.">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-white text-secondary font-inter">
+
+    <!-- Premium Preloader -->
+    <div id="preloader" class="fixed inset-0 z-[100] bg-primary flex items-center justify-center transition-opacity duration-700">
+        <div class="relative">
+            <img src="./logo.png" alt="Lakhi3" class="h-32 w-auto animate-pulse">
+            <div class="absolute -bottom-8 left-1/2 -translate-x-1/2 w-24 h-1 bg-accent/20 rounded-full overflow-hidden">
+                <div class="h-full bg-accent animate-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Navbar -->
+    <header class="fixed top-0 w-full z-50 bg-primary/95 backdrop-blur-md shadow-lg">
+        <nav class="container mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="./logo.png" alt="Lakhi3 Logo" class="h-24 w-auto drop-shadow-lg">
+            </a>
+            <div class="hidden md:flex space-x-8 text-white font-medium">
+                <a href="index.html" class="hover:text-accent transition-colors">Home</a>
+                <a href="services.html" class="hover:text-accent transition-colors">Services</a>
+                <a href="about.html" class="text-accent underline decoration-gold underline-offset-4 pointer-events-none">About</a>
+                <a href="contact.html" class="hover:text-accent transition-colors">Contact</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-primary px-6 py-4 border-t border-white/10">
+            <div class="flex flex-col space-y-4 text-white">
+                <a href="index.html" class="hover:text-accent">Home</a>
+                <a href="services.html" class="hover:text-accent">Services</a>
+                <a href="about.html" class="text-accent">About</a>
+                <a href="contact.html" class="hover:text-accent">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="pt-48 pb-16 bg-primary text-center">
+        <h1 class="text-4xl md:text-6xl font-poppins font-bold text-white mb-4" data-aos="fade-down">About Us</h1>
+        <div class="w-24 h-1 bg-accent mx-auto rounded-full" data-aos="zoom-in" data-aos-delay="200"></div>
+    </div>
+
+    <!-- Intro Section -->
+    <section class="py-24 bg-gray-50 overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- Services Collage Side -->
+                <div class="lg:w-5/12 relative" data-aos="fade-right">
+                    <div class="grid grid-cols-2 gap-3 rounded-2xl overflow-hidden shadow-2xl">
+                        <!-- Bridal Makeup -->
+                        <div class="relative h-52 overflow-hidden rounded-tl-2xl group">
+                            <img src="./bridal-final.png" alt="Bridal Makeup" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <!-- Hair Dressing -->
+                        <div class="relative h-52 overflow-hidden rounded-tr-2xl group">
+                            <img src="./hair-dressing.png" alt="Hair Dressing" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <!-- Skin Treatments -->
+                        <div class="relative h-52 overflow-hidden rounded-bl-2xl group">
+                            <img src="./skin-treatments.png" alt="Skin Treatments" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <!-- Draping Services -->
+                        <div class="relative h-52 overflow-hidden rounded-br-2xl group">
+                            <img src="./draping-services.png" alt="Draping Services" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                    </div>
+                    <!-- Gold accent corner -->
+                    <div class="absolute -bottom-4 -right-4 w-24 h-24 border-b-4 border-r-4 border-accent rounded-br-2xl -z-10"></div>
+                </div>
+
+                <!-- Text Side -->
+                <div class="lg:w-7/12" data-aos="fade-left">
+                    <h2 class="text-accent uppercase tracking-widest font-semibold mb-2">Our Story</h2>
+                    <h1 class="text-4xl md:text-5xl font-poppins font-bold text-primary mb-6">Welcome to Lakhi3</h1>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Founded by <span class="font-bold text-primary">Vidya Chappala</span>, Lakhi3 Beauty Salon was born out of a passion for artistry and a commitment to helping women embrace their individual beauty. 
+                    </p>
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        Located in the heart of Kamareddy, we have established ourselves as the go-to destination for premium bridal makeup, professional hair styling, and rejuvenation skin treatments. Our philosophy is simple: we don't just provide services; we create experiences.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-8 mb-10">
+                        <div>
+                            <h4 class="text-3xl font-poppins font-bold text-accent mb-1">500+</h4>
+                            <p class="text-gray-500 font-medium uppercase tracking-tighter text-sm">Happy Brides</p>
+                        </div>
+                        <div>
+                            <h4 class="text-3xl font-poppins font-bold text-accent mb-1">10+</h4>
+                            <p class="text-gray-500 font-medium uppercase tracking-tighter text-sm">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-primary p-12 rounded-3xl text-white shadow-xl" data-aos="fade-up">
+                    <div class="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center mb-8">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-3xl font-poppins font-bold mb-6">Our Mission</h3>
+                    <p class="text-gray-300 text-lg leading-relaxed">To provide exceptionally personalized beauty and styling services using premium products and innovative techniques, ensuring every client leaves feeling confident and radiant.</p>
+                </div>
+                <div class="bg-gray-50 p-12 rounded-3xl border border-gray-100 shadow-xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mb-8">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                    </div>
+                    <h3 class="text-3xl font-poppins font-bold mb-6 text-primary">Our Vision</h3>
+                    <p class="text-gray-600 text-lg leading-relaxed">To be the most trusted and sought-after beauty sanctuary in Telangana, recognized for our artistic excellence, hygienic standards, and transformative experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-primary text-3xl md:text-4xl font-poppins font-bold mb-16" data-aos="fade-up">What Makes Us Special</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div data-aos="zoom-in" data-aos-delay="100">
+                    <div class="text-5xl mb-6">✨</div>
+                    <h4 class="text-xl font-bold mb-4 text-primary">Luxury Experience</h4>
+                    <p class="text-gray-600">Premium salon environment designed for your comfort and relaxation.</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-delay="200">
+                    <div class="text-5xl mb-6">🎨</div>
+                    <h4 class="text-xl font-bold mb-4 text-primary">Artistic Excellence</h4>
+                    <p class="text-gray-600">Vidya and her team bring years of artistic training to every transformation.</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-delay="300">
+                    <div class="text-5xl mb-6">🌿</div>
+                    <h4 class="text-xl font-bold mb-4 text-primary">Professional Products</h4>
+                    <p class="text-gray-600">We use only the highest quality, professional-grade beauty and skin care brands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white pt-20 pb-10">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <!-- Brand -->
+                <div class="col-span-1 md:col-span-1">
+                    <a href="#" class="mb-6 block">
+                        <img src="./logo.png" alt="Lakhi3 Logo" class="h-40 w-auto">
+                    </a>
+                    <p class="text-gray-400 mb-6">Your destination for luxury beauty and styling services in Telangana. We believe every person deserves to feel beautiful.</p>
+                </div>
+
+                <!-- Fast Links -->
+                <div>
+                    <h4 class="text-xl font-bold mb-6 text-accent">Quick Links</h4>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Our Services</a></li>
+                        <li><a href="about.html" class="hover:text-white transition-colors">About Vidya</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-xl font-bold mb-6 text-accent">Our Services</h4>
+                    <ul class="space-y-4 text-gray-400">
+                        <li>Bridal Makeup</li>
+                        <li>Hair Styling</li>
+                        <li>Permanent Makeup</li>
+                        <li>Skin Treatments</li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-xl font-bold mb-6 text-accent">Contact Info</h4>
+                    <ul class="space-y-4 text-gray-400">
+                        <li class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 text-accent mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <span>11-9, Musrifbhag, Kamareddy, Telangana - 503111</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            <span>+91 7013714607</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <span>vidya.pasuloti@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-10 text-center text-gray-500 text-sm">
+                <p>&copy; <span id="year"></span> Lakhi3 Beauty Salon. All rights reserved. Designed with ❤️ in Telangana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/917013714607" target="_blank" class="whatsapp-pulse shadow-2xl">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.996-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.82c1.516.903 3.003 1.357 4.549 1.357 5.404 0 9.803-4.397 9.805-9.802.001-2.618-1.02-5.079-2.877-6.937-1.856-1.856-4.318-2.877-6.931-2.877-5.405 0-9.803 4.398-9.806 9.803 0 1.638.406 3.175 1.174 4.524l-.993 3.626 3.71-.974zm10.174-6.401c-.139-.232-.511-.371-1.068-.649-.558-.278-2.698-1.33-3.116-1.482-.417-.153-.721-.23-.1.028v.1h-.001z"></path><path d="M12.004 20.121c-1.626 0-3.149-.444-4.463-1.214l-4.411 1.157 1.177-4.3c-.846-1.442-1.3-3.089-1.3-4.801 0-5.118 4.163-9.281 9.282-9.281 2.463 0 4.778.959 6.518 2.7 1.74 1.741 2.699 4.056 2.699 6.519 0 5.118-4.164 9.282-9.282 9.282zm0-17.562c-4.562 0-8.281 3.719-8.281 8.281 0 1.642.482 3.174 1.311 4.468l-.854 3.111 3.187-.837c1.241.741 2.67 1.139 4.137 1.139 4.562 0 8.281-3.719 8.281-8.281 0-2.212-.861-4.292-2.425-5.857-1.564-1.565-3.645-2.424-5.857-2.424z"></path></svg>
+    </a>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
