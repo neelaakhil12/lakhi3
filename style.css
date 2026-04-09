@@ -88,3 +88,33 @@ h1, h2, h3, h4, h5, h6 {
 .btn-accent {
   @apply bg-accent text-white px-6 py-3 rounded-md font-medium transition-all hover:bg-opacity-90 active:scale-95;
 }
+
+/* Hero Load Animations (Bypass AOS for initial viewport) */
+@keyframes heroFadeDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroZoomIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.hero-title {
+  animation: heroFadeDown 800ms ease-out forwards;
+}
+
+.hero-subtitle {
+  animation: heroFadeUp 800ms ease-out 200ms forwards;
+  opacity: 0;
+}
+
+.hero-buttons {
+  animation: heroZoomIn 800ms ease-out 400ms forwards;
+  opacity: 0;
+}
